@@ -1,7 +1,7 @@
 {
   "name": "smart-random",
   "version": "0.0.0",
-  "description": "Generate random objects using an array of sources",
+  "description": "Generate random objects using an array of sources with weighting, tagging, and filtering",
   "keywords": [
     "generator",
     "random"
