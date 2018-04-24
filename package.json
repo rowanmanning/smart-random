@@ -1,0 +1,35 @@
+{
+  "name": "smart-random",
+  "version": "0.0.0",
+  "description": "Generate random objects using an array of sources",
+  "keywords": [
+    "generator",
+    "random"
+  ],
+  "author": "Rowan Manning (https://rowanmanning.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rowanmanning/smart-random.git"
+  },
+  "homepage": "https://github.com/rowanmanning/smart-random",
+  "bugs": "https://github.com/rowanmanning/smart-random/issues",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rowanmanning/eslint-config": "^1.0.0",
+    "@rowanmanning/make": "^1.0.0",
+    "eslint": "^4.9.0",
+    "mocha": "^4.0.1",
+    "mockery": "^2.1.0",
+    "nyc": "^11.2.1",
+    "proclaim": "^3.5.0",
+    "sinon": "^4.5.0"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "make ci"
+  }
+}
