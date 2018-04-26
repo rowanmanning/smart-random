@@ -92,8 +92,10 @@ const catMe = smartRandom([
             },
             {
                 // The name "Fluffy" can be selected regardless
-                // of cat color
-                value: 'Fluffy'
+                // of cat color. Also the property "isLongHaired"
+                // will be added
+                value: 'Fluffy',
+                add: {isLongHaired: true}
             },
             {
                 // The name "Lucky" can be selected unless the
